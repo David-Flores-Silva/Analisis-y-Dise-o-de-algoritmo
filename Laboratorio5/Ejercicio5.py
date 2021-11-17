@@ -1,6 +1,6 @@
 #ejercicio5 - complejidad O(n(n+1)/2)
 
-def complejidad_3(n):
+def complejidad_5(n):
     #en este ejercicio vemos q la complejidad del codigo es n(n+1)/2
     #es un caso especial ya que la segunda iteracion sera realizada
     #respecto del valor de i (primera iteracion) que ira aumentando
@@ -14,6 +14,6 @@ def complejidad_3(n):
 
 #Caso de prueba
 n = int(input("ingrese valor de n: "))
-complejidad_3(n)
+complejidad_5(n)
 
 
