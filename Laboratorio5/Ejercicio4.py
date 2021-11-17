@@ -15,6 +15,4 @@ def complejidad_3(n):
 n = int(input("ingrese valor de n: "))
 complejidad_3(n)
 
-#O(n/2)
-#seria una complejidad de n/2
 
