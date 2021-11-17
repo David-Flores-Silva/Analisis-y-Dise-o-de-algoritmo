@@ -1,5 +1,3 @@
-
-
 def find_needle(needle, haystack):
     needle_index = 0;
     haystack_index = 0;
