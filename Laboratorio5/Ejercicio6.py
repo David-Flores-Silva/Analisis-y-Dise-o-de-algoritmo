@@ -2,9 +2,10 @@
 
 def complejidad_6(n):
     #en este ejercicio vemos q la complejidad del codigo es n^½
-    #es un caso especial ya que la segunda iteracion sera realizada
-    #respecto del valor de i (primera iteracion) que ira aumentando
-    #cada vez que este en el primer iterador
+    #el valor de p aumenta con el valor de i 
+    # EL EJERCICIO MUESTRA LOS NUMEROS TRIANGULARES O
+    # LA SUMA DE LOS PRIMERSO NUMEROS EN CADA ITERACION
+    # 1, 1+2, 1+2+3, 1+2+3+4, ...
     
     p = 0
     i = 1
