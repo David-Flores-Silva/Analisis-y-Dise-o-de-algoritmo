@@ -1,6 +1,9 @@
 #Ejercicio1 - Lab6 - Binary search
 
 def Binary_Search(binary, search):
+    # El codigo tiene como objetivo indicar al usuario si el valor que esta 
+    # buscando se encuentra o no en el arreglo.
+    
     L = 0
     R = len(binary) - 1
     
