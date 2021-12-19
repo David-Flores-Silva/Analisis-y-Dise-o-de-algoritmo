@@ -1,8 +1,15 @@
 #Maximal_Square.py
 
-def number():
+def number(ar):
     #decripcion
-    pass
+    for i in range(len(ar)):
+        for j in range(len(ar[i])):
+            if(ar[i][j] == 1):
+                i += 1
+                
+    return i        
+    
+    
 
 
 #Pruebas-LeetCode
