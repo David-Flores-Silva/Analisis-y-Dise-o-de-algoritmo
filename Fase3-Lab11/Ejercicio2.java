@@ -64,6 +64,7 @@ public class Ejercicio2 {
 		}
 	}
 }
+//si funciona, en la pagina del problema no me deja ejecutar por el nombre de la funcion
 
 /*
 #---------------------------------
