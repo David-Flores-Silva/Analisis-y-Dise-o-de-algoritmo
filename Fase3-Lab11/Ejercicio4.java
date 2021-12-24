@@ -13,7 +13,7 @@ public class Ejercicio4 {
 	public static String solucion(String cad) {
 		String salida = "";
 		
-		if(cad.length() >= 1000000) {
+		if(cad.length() >= 10000000) {
 			return "(empty)";
 		}
 		
