@@ -7,15 +7,7 @@ def funcionde():
 */
 
 class Solution {
-    public static void main(String [] args) {
-		//cantidad de cuerdas N
-		int N=5;
-		int [] A = {1, 3, 7, 9, 9};
-		int [] B = {5, 6, 8, 9, 10};
-		System.out.println(new Solution().solution(A, B));
-	}
-	
-	
+
 	public int solution(int [] A, int [] B) {
 		int curren = -1;
 		int count = 0;
@@ -26,8 +18,10 @@ class Solution {
 					count++;
 			}
 		}		
+
 		return count;
 	}
+	
 }
 
 /*

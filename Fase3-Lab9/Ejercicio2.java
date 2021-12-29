@@ -1,31 +1,21 @@
 //#https://app.codility.com/programmers/lessons/16-greedy_algorithms/max_nonoverlapping_segments/
 //#title
 
-public class Solution {
-	
-	public int solution(int k, int [] a) {
-		int curren = 0;
+public class Solution {	
+	public int solution(int[] A, int[] B) {
+        // write your code in Java SE 8
+        int curren = -1;
 		int ropes = 0;
 		
-		for(int i=0; i<a.length; i++) {
-			curren += a[i];
-			if(curren >= k) {
+		for(int i=0; i<A.length; i++) {
+			if(A[i] > curren) {
+                curren = B[i];
 				ropes++;
-				curren = 0;
 			}
 		}
 				
 		return ropes;
-	}
-	
-	public static void main(String [] args) {
-		//entradas		
-		
-		int k=4;
-		int [] a = {1, 2, 3, 4, 1, 1, 3};
-		System.out.println(new Solution().solution(k, a));
-	}
-	
+    }
 }
 
 /*
