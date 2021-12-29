@@ -1,7 +1,7 @@
 //https://cses.fi/problemset/task/1672
 //title  
 
-#include<bits/stdc++.h>
+
 using namespace std;
 
 const int N = 501;
